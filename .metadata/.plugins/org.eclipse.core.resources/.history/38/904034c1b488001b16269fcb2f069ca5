@@ -1,0 +1,10 @@
+
+public class Methods {
+	
+	public void Validateheader()
+	{
+		System.out.println("Header link validated");
+		return "pass;
+	}
+
+}
