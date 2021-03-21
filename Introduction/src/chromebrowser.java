@@ -24,7 +24,7 @@ public class chromebrowser {
         driver.findElement(By.cssSelector("#email")).sendKeys("emailaddress");
         driver.findElement(By.xpath("//*[@id='pass']")).sendKeys("password");
         driver.findElement(By.name("login")).click();
-        driver.findElement(By.xpath("//*[@id=\'facebook\']/body/div[2]/p[2]")).click();
+
 		
 		
 		
