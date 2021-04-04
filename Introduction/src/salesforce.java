@@ -6,17 +6,16 @@ public class salesforce {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
-			
-		//chromedriver.exe
+
+		// chromedriver.exe
 		System.setProperty("webdriver.chrome.driver", "D:\\ProgramData\\projects\\java\\chromedriver.exe");
-		
-		WebDriver driver=new ChromeDriver();
-		
+
+		WebDriver driver = new ChromeDriver();
+
 		driver.get("https://login.salesforce.com/");
 		driver.findElement(By.id("username")).sendKeys("hello");
 		driver.findElement(By.name("pw")).sendKeys("hello");
-		//driver.findElement(By.className("button r4 wide primary")).click();
+		// driver.findElement(By.className("button r4 wide primary")).click();
 		driver.findElement(By.xpath("//*[@id=\'Login\']")).click();
 		System.out.println(driver.findElement(By.cssSelector("div#error.loginError")).getText());
 	}
