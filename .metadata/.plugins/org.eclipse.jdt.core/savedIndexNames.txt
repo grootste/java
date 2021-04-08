@@ -7,6 +7,5 @@ INDEX VERSION 1.131+D:\ProgramData\projects\java\.metadata\.plugins\org.eclipse.
 82742218.index
 178291131.index
 4200880989.index
-1695662857.index
 1117875432.index
 1882622726.index
