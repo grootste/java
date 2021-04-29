@@ -31,7 +31,7 @@ public class Main {
         driver.findElement(By.id("username")).sendKeys("hello");
         driver.findElement(By.name("pw")).sendKeys("hello");
         // driver.findElement(By.className("button r4 wide primary")).click();
-        driver.findElement(By.xpath("//*[@id=\'Login\']")).click();
+        driver.findElement(By.id("Login")).click();
         System.out.println(driver.findElement(By.cssSelector("div#error.loginError")).getText());
     }
 }
